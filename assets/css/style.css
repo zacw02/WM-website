@@ -35,6 +35,7 @@ html, body {
 body {
   font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
   color: var(--text);
+  background-color: var(--bg);
   background:
     radial-gradient(circle at 18% -10%, rgba(0, 56, 255, 0.12), transparent 55%),
     radial-gradient(circle at 82% 0%, rgba(0, 145, 255, 0.1), transparent 42%),
