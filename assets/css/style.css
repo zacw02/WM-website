@@ -54,7 +54,7 @@ a {
   transition: var(--transition);
 }
 
-a:hover {
+a:not(.btn):hover {
   color: var(--brand);
 }
 
@@ -158,6 +158,7 @@ p {
 .btn-primary:hover {
   transform: translateY(-4px) scale(1.01);
   box-shadow: 0 32px 70px rgba(0, 56, 255, 0.3);
+  color: #fff;
 }
 
 .btn-ghost {
@@ -476,10 +477,22 @@ section {
   font-size: 0.95rem;
 }
 
+.feature-card ul li {
+  position: relative;
+  padding-left: 1.4rem;
+  line-height: 1.5;
+}
+
 .feature-card ul li::before {
-  content: '•';
-  color: rgba(124, 240, 255, 0.9);
-  margin-right: 0.55rem;
+  content: '';
+  position: absolute;
+  top: 0.65em;
+  left: 0;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 999px;
+  background: linear-gradient(120deg, #0038ff, #7cd8ff);
+  box-shadow: 0 0 0 2px rgba(0, 56, 255, 0.12);
 }
 
 .portfolio-grid {

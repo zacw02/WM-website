@@ -1,18 +1,19 @@
-<svg width="220" height="80" viewBox="0 0 220 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="360" height="160" viewBox="0 0 360 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Walker Media logo</title>
-  <desc id="desc">Rounded rocket emblem with Walker Media text in blue.</desc>
-  <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0038FF" />
-      <stop offset="100%" stop-color="#0053FF" />
-    </linearGradient>
-  </defs>
-  <rect x="0.75" y="0.75" width="218.5" height="78.5" rx="14" fill="none" stroke="#0038FF" stroke-width="1.5" />
-  <g transform="translate(12 12)">
-    <rect x="0" y="0" width="56" height="56" rx="14" fill="none" stroke="#0038FF" stroke-width="2.5" />
-    <path d="M28 10c4.3 0 7.8 3.4 7.8 7.8 0 6.3-4.1 13.5-7.8 17.8-3.7-4.3-7.8-11.5-7.8-17.8C20.2 13.4 23.6 10 28 10zm0 8.2a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4zm-10.3 21a17.9 17.9 0 0 0 10.3 3.1 17.9 17.9 0 0 0 10.3-3.1l-3.3 9.7H21l-3.3-9.7z" fill="url(#grad)" />
-    <path d="M18.5 39.2c-3.8 1.2-6.5 4.6-6.5 8.5 3.2-2.1 7.1-3.2 11-3.2 3.9 0 7.8 1.1 11 3.2 0-3.9-2.7-7.3-6.5-8.5" fill="none" stroke="#0038FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+  <desc id="desc">Walker Media wordmark beside a rocket icon enclosed in a rounded rectangle.</desc>
+  <rect x="6" y="6" width="348" height="148" rx="20" fill="#ffffff" stroke="#0038ff" stroke-width="12" />
+  <g fill="#0038ff" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="700" letter-spacing="4">
+    <text font-size="44" x="36" y="84">WALKER</text>
+    <text font-size="44" x="36" y="128">MEDIA</text>
   </g>
-  <text x="88" y="34" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24" font-weight="700" fill="#0038FF" letter-spacing="4">WALKER</text>
-  <text x="88" y="60" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24" font-weight="700" fill="#0038FF" letter-spacing="4">MEDIA</text>
+  <g transform="translate(236 28)" fill="none" stroke="#0038ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="112" height="112" rx="20" />
+    <path d="M56 16c-18 14-24 34-22 46l22-10 22 10c2-12-4-32-22-46z" fill="#ffffff" />
+    <circle cx="56" cy="44" r="10" />
+    <path d="M56 52v26" />
+    <path d="M40 86l16-10 16 10" />
+    <path d="M36 62l-8 22 16-10" />
+    <path d="M76 62l8 22-16-10" />
+    <path d="M56 90v18" />
+  </g>
 </svg>
