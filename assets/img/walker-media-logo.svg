@@ -1,0 +1,19 @@
+<svg width="360" height="160" viewBox="0 0 360 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Walker Media logo</title>
+  <desc id="desc">Walker Media wordmark beside a rocket icon enclosed in a rounded rectangle.</desc>
+  <rect x="6" y="6" width="348" height="148" rx="20" fill="#ffffff" stroke="#0038ff" stroke-width="12" />
+  <g fill="#0038ff" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="700" letter-spacing="4">
+    <text font-size="44" x="36" y="84">WALKER</text>
+    <text font-size="44" x="36" y="128">MEDIA</text>
+  </g>
+  <g transform="translate(236 28)" fill="none" stroke="#0038ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="112" height="112" rx="20" />
+    <path d="M56 16c-18 14-24 34-22 46l22-10 22 10c2-12-4-32-22-46z" fill="#ffffff" />
+    <circle cx="56" cy="44" r="10" />
+    <path d="M56 52v26" />
+    <path d="M40 86l16-10 16 10" />
+    <path d="M36 62l-8 22 16-10" />
+    <path d="M76 62l8 22-16-10" />
+    <path d="M56 90v18" />
+  </g>
+</svg>
