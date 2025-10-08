@@ -18,13 +18,19 @@
           <img src="assets/img/walker-media-logo.svg" alt="Walker Media logo" class="brand-logo">
           <span class="brand-name">Walker Media</span>
         </a>
-        <ul class="nav-links">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="visually-hidden">Toggle navigation</span>
+          <span class="menu-icon" aria-hidden="true"></span>
+          <span class="menu-label" aria-hidden="true">Menu</span>
+        </button>
+        <ul class="nav-links" id="primary-navigation">
           <li><a class="active" href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li class="nav-cta"><a class="btn btn-primary" href="contact.html">Book a Discovery Call</a></li>
         </ul>
-        <a class="btn btn-ghost" href="contact.html">Book a Discovery Call</a>
+        <a class="btn btn-ghost nav-cta-desktop" href="contact.html">Book a Discovery Call</a>
       </nav>
     </div>
   </header>
@@ -145,38 +151,38 @@
         </div>
         <div class="portfolio-grid">
           <article class="portfolio-card">
-            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=900&q=80" alt="Modern SaaS dashboard displayed on a laptop with gradient lighting.">
+            <img src="https://images.unsplash.com/photo-1521737604893-60d5a2d74a6a?auto=format&fit=crop&w=900&q=80" alt="Mood boards, typography sheets, and color swatches laid out for a brand design presentation.">
             <div class="portfolio-card-content">
-              <h3>Horizon Labs</h3>
-              <p>Rebuilt their marketing site with SEO-led architecture and launched AI onboarding assistants that cut manual support by 55%.</p>
+              <h3>Vibrant Living at Home</h3>
+              <p>Crafted a warm, trustworthy brand system, a custom website with SEO-driven blog engine, and automated nurture flows for the in-home care team.</p>
+              <div class="portfolio-tags">
+                <span>Brand</span>
+                <span>Web</span>
+                <span>Automation</span>
+              </div>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80" alt="Scottsdale law office conference room with floor-to-ceiling windows and a large meeting table.">
+            <div class="portfolio-card-content">
+              <h3>Radix Law</h3>
+              <p>Designed and built a bespoke Scottsdale law firm site with localized SEO architecture, intake automations, and crystal clear service positioning.</p>
+              <div class="portfolio-tags">
+                <span>Web</span>
+                <span>SEO</span>
+                <span>Automation</span>
+              </div>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <img src="https://images.unsplash.com/photo-1483478550801-781f7e4495c3?auto=format&fit=crop&w=900&q=80" alt="Telecommunications equipment and fiber cables illuminated with neon blue lighting.">
+            <div class="portfolio-card-content">
+              <h3>Telecom Advisors Group</h3>
+              <p>Reimagined the national consultancy with a future-proof identity, modular CMS, and AI-assisted proposal workflows to speed up enterprise deals.</p>
               <div class="portfolio-tags">
                 <span>Brand</span>
                 <span>Web</span>
                 <span>AI</span>
-              </div>
-            </div>
-          </article>
-          <article class="portfolio-card">
-            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80" alt="Team reviewing printed brand guidelines and mood boards on a table.">
-            <div class="portfolio-card-content">
-              <h3>Everline Finance</h3>
-              <p>Delivered a conversion-first brand system with modular CMS components, CRO testing, and compounding growth campaigns.</p>
-              <div class="portfolio-tags">
-                <span>Brand</span>
-                <span>Development</span>
-                <span>SEO</span>
-              </div>
-            </div>
-          </article>
-          <article class="portfolio-card">
-            <img src="https://images.unsplash.com/photo-1521737604893-60d5a2d74a6a?auto=format&fit=crop&w=900&q=80" alt="Mobile phones displaying product UI and analytics charts.">
-            <div class="portfolio-card-content">
-              <h3>Northwind Ops</h3>
-              <p>Automated reporting with custom AI agents and shipped a blazing-fast, analytics-ready product marketing hub in 45 days.</p>
-              <div class="portfolio-tags">
-                <span>Automation</span>
-                <span>Web</span>
-                <span>Growth</span>
               </div>
             </div>
           </article>

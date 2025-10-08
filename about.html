@@ -18,13 +18,19 @@
           <img src="assets/img/walker-media-logo.svg" alt="Walker Media logo" class="brand-logo">
           <span class="brand-name">Walker Media</span>
         </a>
-        <ul class="nav-links">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="visually-hidden">Toggle navigation</span>
+          <span class="menu-icon" aria-hidden="true"></span>
+          <span class="menu-label" aria-hidden="true">Menu</span>
+        </button>
+        <ul class="nav-links" id="primary-navigation">
           <li><a href="index.html">Home</a></li>
           <li><a class="active" href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li class="nav-cta"><a class="btn btn-primary" href="contact.html">Book a Discovery Call</a></li>
         </ul>
-        <a class="btn btn-ghost" href="contact.html">Book a Discovery Call</a>
+        <a class="btn btn-ghost nav-cta-desktop" href="contact.html">Book a Discovery Call</a>
       </nav>
     </div>
   </header>
