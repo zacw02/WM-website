@@ -1,5 +1,6 @@
 :root {
   --brand: #0038ff;
+  --brand-dark: #001e7b;
   --brand-accent: #0091ff;
   --brand-soft: rgba(0, 56, 255, 0.12);
   --bg: #f7f9ff;
@@ -752,6 +753,29 @@ section {
   box-shadow: var(--shadow-soft);
 }
 
+.service-callout {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding: 1.75rem;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, rgba(0, 56, 255, 0.08), rgba(120, 162, 255, 0.12));
+  border: 1px solid rgba(0, 56, 255, 0.2);
+  color: var(--muted-strong);
+}
+
+.service-callout span {
+  font-weight: 700;
+  color: var(--brand);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.82rem;
+}
+
+.service-callout p {
+  margin: 0;
+}
+
 .section-alt {
   position: relative;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(236, 242, 255, 0.95));
@@ -777,6 +801,46 @@ section {
   padding-left: 1.5rem;
   display: grid;
   gap: 1.8rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 1.5rem;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 520px;
+  background: var(--bg-strong);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 1.1rem 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid var(--surface-border);
+  color: var(--muted-strong);
+}
+
+.pricing-table thead {
+  background: linear-gradient(135deg, rgba(0, 56, 255, 0.12), rgba(0, 145, 255, 0.16));
+  color: var(--brand-dark);
+}
+
+.pricing-table th {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.pricing-table tbody tr:last-child td {
+  border-bottom: none;
 }
 
 .timeline-item h3 {
@@ -1078,6 +1142,17 @@ section {
 
   .contact-grid {
     gap: 1.8rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .pricing-table {
+    min-width: 100%;
+  }
+
+  .pricing-table th,
+  .pricing-table td {
+    white-space: normal;
   }
 }
 

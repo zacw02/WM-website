@@ -5,7 +5,8 @@ A marketing site for Walker Media that highlights custom branding, development, 
 ## Pages
 - **Home:** Gradient hero with SEO-led messaging, featured work showcase (Vibrant Living at Home, Radix Law, Telecom Advisors Group), testimonials, and collaboration details.
 - **About:** Studio story, principles, and outcomes with timeline and partnership highlights written to emphasize expertise.
-- **Services:** Deep dives into brand, web, growth, and AI offerings with modular cards, case-ready copy, and motion-enhanced sections.
+- **Web & Product:** Detailed breakdown of Walker Media’s research, UX, design, development, and optimization services plus featured case studies.
+- **AI Services:** Workflow audits, agent design, content automation, and strategy consulting packaged with pricing and process details.
 - **Contact:** High-impact hero, project-fit details, and a modern inquiry form.
 
 ## Experience
