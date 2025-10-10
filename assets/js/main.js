@@ -66,4 +66,8 @@ window.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
+  if (window.feather && typeof window.feather.replace === 'function') {
+    window.feather.replace();
+  }
 });
