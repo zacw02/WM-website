@@ -1,0 +1,20 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="radixGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1f3a"/>
+      <stop offset="60%" stop-color="#1c4c80"/>
+      <stop offset="100%" stop-color="#2f7ad3"/>
+    </linearGradient>
+    <linearGradient id="radixAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8fe1ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#4ac1ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#radixGradient)"/>
+  <path d="M160 640 L440 240 L640 520 L860 200 L1040 520" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M200 660 L1040 660" stroke="url(#radixAccent)" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="860" cy="360" r="140" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="440" cy="360" r="120" fill="rgba(255,255,255,0.12)"/>
+  <rect x="280" y="520" width="200" height="90" rx="20" fill="rgba(12,66,120,0.8)"/>
+  <rect x="720" y="420" width="220" height="110" rx="24" fill="rgba(12,66,120,0.6)"/>
+</svg>
